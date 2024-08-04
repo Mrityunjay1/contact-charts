@@ -82,6 +82,7 @@ const Charts = (props: Props) => {
 
   return (
     <div>
+      {worldWideData && <div></div>}
       <h1 className="text-2xl font-semibold text-center">Line Graph</h1>
       <div className="p-16 md:p-8 lg:p-16 w-full h-[500px]">
         <ResponsiveContainer width="100%" height="100%">
